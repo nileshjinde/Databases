@@ -23,6 +23,7 @@
 		0E04239A140E41CD0021C59E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E042398140E41CD0021C59E /* InfoPlist.strings */; };
 		0E04239C140E41CD0021C59E /* DatabasesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0E04239B140E41CD0021C59E /* DatabasesTests.h */; };
 		0E04239E140E41CD0021C59E /* DatabasesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04239D140E41CD0021C59E /* DatabasesTests.m */; };
+		0E0423A8140E420E0021C59E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0423A7140E420E0021C59E /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +41,23 @@
 		0E04236D140E41CD0021C59E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0E04236F140E41CD0021C59E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0E042371140E41CD0021C59E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0E042375140E41CD0021C59E /* Databases-Info.plist */ = {isa = PBXFileReference; path = "Databases-Info.plist"; sourceTree = "<group>"; };
+		0E042375140E41CD0021C59E /* Databases-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Databases-Info.plist"; sourceTree = "<group>"; };
 		0E042377140E41CD0021C59E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E042379140E41CD0021C59E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0E04237B140E41CD0021C59E /* Databases-Prefix.pch */ = {isa = PBXFileReference; path = "Databases-Prefix.pch"; sourceTree = "<group>"; };
-		0E04237C140E41CD0021C59E /* DatabasesAppDelegate.h */ = {isa = PBXFileReference; path = DatabasesAppDelegate.h; sourceTree = "<group>"; };
+		0E04237B140E41CD0021C59E /* Databases-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Databases-Prefix.pch"; sourceTree = "<group>"; };
+		0E04237C140E41CD0021C59E /* DatabasesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabasesAppDelegate.h; sourceTree = "<group>"; };
 		0E04237D140E41CD0021C59E /* DatabasesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabasesAppDelegate.m; sourceTree = "<group>"; };
 		0E042380140E41CD0021C59E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		0E042382140E41CD0021C59E /* DatabasesViewController.h */ = {isa = PBXFileReference; path = DatabasesViewController.h; sourceTree = "<group>"; };
+		0E042382140E41CD0021C59E /* DatabasesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabasesViewController.h; sourceTree = "<group>"; };
 		0E042383140E41CD0021C59E /* DatabasesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabasesViewController.m; sourceTree = "<group>"; };
 		0E042386140E41CD0021C59E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DatabasesViewController.xib; sourceTree = "<group>"; };
 		0E04238D140E41CD0021C59E /* DatabasesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatabasesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E04238E140E41CD0021C59E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0E042397140E41CD0021C59E /* DatabasesTests-Info.plist */ = {isa = PBXFileReference; path = "DatabasesTests-Info.plist"; sourceTree = "<group>"; };
+		0E042397140E41CD0021C59E /* DatabasesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DatabasesTests-Info.plist"; sourceTree = "<group>"; };
 		0E042399140E41CD0021C59E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E04239B140E41CD0021C59E /* DatabasesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabasesTests.h; sourceTree = "<group>"; };
 		0E04239D140E41CD0021C59E /* DatabasesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabasesTests.m; sourceTree = "<group>"; };
+		0E0423A7140E420E0021C59E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0423A8140E420E0021C59E /* libsqlite3.dylib in Frameworks */,
 				0E04236E140E41CD0021C59E /* UIKit.framework in Frameworks */,
 				0E042370140E41CD0021C59E /* Foundation.framework in Frameworks */,
 				0E042372140E41CD0021C59E /* CoreGraphics.framework in Frameworks */,
@@ -105,6 +108,7 @@
 		0E04236C140E41CD0021C59E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E0423A7140E420E0021C59E /* libsqlite3.dylib */,
 				0E04236D140E41CD0021C59E /* UIKit.framework */,
 				0E04236F140E41CD0021C59E /* Foundation.framework */,
 				0E042371140E41CD0021C59E /* CoreGraphics.framework */,
